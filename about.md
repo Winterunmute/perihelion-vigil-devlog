@@ -31,7 +31,7 @@ across an entire game's worth of assets.
 
 ## Tech stack
 
-- **Engine:** Godot 4 (GDScript)
+- **Engine:** Godot 4
 - **In-world runtime:** HeliOS — custom bytecode VM with a BASIC-like scripting language
 - **Scripts:** `.hel` files, line-numbered, event-driven
 - **Art:** low-poly, PS1-era constraints
