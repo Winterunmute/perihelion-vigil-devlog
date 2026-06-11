@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why I'm making a PS1-era space RPG in 2026"
-date: 2026-06-12
+date: 2026-06-11
 tags: [design, aesthetic, solo-dev]
 excerpt: "Low-poly isn't a limitation I'm working around. It's the point."
 ---
