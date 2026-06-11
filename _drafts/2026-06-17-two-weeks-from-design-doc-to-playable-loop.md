@@ -34,6 +34,10 @@ an ugly terminal that could fly a box through space by typing into it — no
 docking, no boarding, no art worth showing. But the spine was real, and that was
 the week's job.
 
+<!-- PLACEHOLDER · png · the week-one prototype — bare terminal + a primitive box "ship", deliberately ugly -->
+![Week-one prototype: a bare terminal flying a box through space]({{ "/assets/media/post-3/week-one-prototype.png" | relative_url }})
+*Week one. Not pretty, but it flew when you typed at it — and that was the whole point.*
+
 ## Week two — the loop
 
 Week two was about connecting the spine to something a person does. The docking
@@ -43,6 +47,10 @@ moment it came together I flew to a target, watched `DOCK RANGE` print itself,
 heard the airlock cycle, and stepped across. First time through, the whole chain
 fired correctly. I sat there for a second. Then I did it four more times to make
 sure it wasn't a fluke.
+
+<!-- PLACEHOLDER · gif · the full loop end to end — fly in, DOCK RANGE prints, airlock cycles, board -->
+![The full loop: navigate, dock, cycle airlock, board]({{ "/assets/media/post-3/playable-loop.gif" | relative_url }})
+*The whole loop, first clean run: fly to the target, `DOCK RANGE`, airlock cycle, step across.*
 
 ## What got cut
 

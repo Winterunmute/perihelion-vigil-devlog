@@ -43,6 +43,10 @@ Here's the heart of it, lightly trimmed:
 230 GOTO 30
 ```
 
+<!-- PLACEHOLDER · png · the boarding computer mid-sequence — ALERT lines stacked, "CYCLING AIRLOCK -- STAND CLEAR" -->
+![The boarding computer printing its ALERT sequence]({{ "/assets/media/post-5/boarding-computer.png" | relative_url }})
+*The listing above, doing its job: each ALERT is a line of the program reacting to a real event.*
+
 ## Reading the program
 
 The whole thing is one event loop. Line 30 blocks on `WAIT EVENT` and the program
@@ -74,6 +78,10 @@ in this game you can open the boarding computer and read exactly the listing
 above. The thing controlling the moment and the thing you can inspect are the
 same thing. That's the rule I hold the whole project to: the script reacts to
 genuine VM events and real world data — it never simulates what *should* happen.
+
+<!-- PLACEHOLDER · gif · airlock cycles and the prompt resolves to "AIRLOCK OPEN -- PROCEED TO BOARD" -->
+![The airlock cycling through to AIRLOCK OPEN -- PROCEED TO BOARD]({{ "/assets/media/post-5/airlock-cycle.gif" | relative_url }})
+*`AIRLOCK OPEN -- PROCEED TO BOARD` only prints because the airlock genuinely cycled.*
 
 So when you board a ship in Perihelion Vigil, you're not triggering a cutscene.
 You're running a hundred-and-fifty-ish lines of salvaged BASIC, watching it react

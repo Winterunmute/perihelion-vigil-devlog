@@ -11,6 +11,10 @@ dressed up to look like a computer. You're looking at an actual computer. The
 terminal is running a program, and that program is being executed — one line at a
 time — by a virtual machine I wrote from scratch. I call the whole thing HeliOS.
 
+<!-- PLACEHOLDER · png · hero shot — player seated at a HeliOS console in-game, CRT glowing -->
+![A HeliOS terminal in the game world]({{ "/assets/media/post-2/helios-console.png" | relative_url }})
+*The console isn't set dressing — it's a real machine running real software.*
+
 This sounds like over-engineering. It mostly isn't. Let me explain why I went
 this way instead of doing what every sane person does and hardcoding the
 interactions.
@@ -54,6 +58,10 @@ that this is salvaged, decades-old shipboard software. The syntax sells the
 setting, and — conveniently — a flat, line-numbered language is dramatically
 easier to write a reliable interpreter for than something with scope and
 closures.
+
+<!-- PLACEHOLDER · gif · the same listing executing — ALERT lines printing to the CRT one at a time -->
+![A .hel listing executing line by line on an in-game terminal]({{ "/assets/media/post-2/helios-listing-run.gif" | relative_url }})
+*BASIC with line numbers, running live. Salvaged-software fiction, real interpreter underneath.*
 
 ## Where the bodies are buried
 

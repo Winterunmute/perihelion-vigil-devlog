@@ -32,6 +32,10 @@ number ticking down. Power draw climbing as the turrets spin up. A hull-integrit
 bar that drops when something connects. The turret controller itself is a HeliOS
 program — it sweeps, it aims, it fires on events:
 
+<!-- PLACEHOLDER · png · the combat console — sensor readout with contact bearing, range, power draw, hull bar -->
+![The combat console: sensor bearing, range, power draw, hull-integrity bar]({{ "/assets/media/post-4/combat-console.png" | relative_url }})
+*Everything you get in a fight: a bearing, a closing range, and a hull bar you'd rather not watch.*
+
 ```basic
 20 TOGGLE TURRET-1 AIM_H 0
 30 WAIT 0.6
@@ -50,7 +54,11 @@ Here's the thing I didn't expect. Not seeing the enemy makes the enemy *worse*.
 
 When the contact is just a bearing and a closing range, your brain builds the
 threat. The pause between "INCOMING FIRE" on the readout and the hull bar
-dropping is longer and heavier than any explosion I could render. You're leaning
+dropping is longer and heavier than any explosion I could render.
+
+<!-- PLACEHOLDER · gif · "INCOMING FIRE" alert flashes, beat of nothing, then the hull-integrity bar drops -->
+![INCOMING FIRE alert, then the hull bar drops]({{ "/assets/media/post-4/incoming-fire.gif" | relative_url }})
+*The whole horror movie: the alert, the wait, the bar. You never see the thing shooting at you.* You're leaning
 into the instruments, doing the same thing the imaginary crew is doing — trusting
 numbers because numbers are all you have. That tension is submarine-movie
 tension, and submarine movies almost never show you the other sub. They show you
