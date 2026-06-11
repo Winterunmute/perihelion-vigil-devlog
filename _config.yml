@@ -22,5 +22,6 @@ plugins:
 
 exclude:
   - README.md
+  - MEDIA-NOTES.md
   - Gemfile
   - Gemfile.lock
