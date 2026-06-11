@@ -26,16 +26,15 @@ the texture of the thing. Gaps in the fidelity are gaps your imagination fills.
 ## The developer
 
 Built by **Crux / Rickard Borchers** — solo developer. Code, systems, design,
-and the words on this log. The art pipeline is a tool called FORGE that lets one
-person keep a consistent low-poly look across an entire game's worth of assets.
+art, and the words on this log. One person keeping a consistent low-poly look
+across an entire game's worth of assets.
 
 ## Tech stack
 
 - **Engine:** Godot 4 (GDScript)
 - **In-world runtime:** HeliOS — custom bytecode VM with a BASIC-like scripting language
 - **Scripts:** `.hel` files, line-numbered, event-driven
-- **Art:** low-poly, PS1-era constraints, FORGE asset pipeline
-- **This site:** Jekyll + GitHub Pages, no JavaScript
+- **Art:** low-poly, PS1-era constraints
 
 ## Links
 

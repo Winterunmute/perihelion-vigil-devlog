@@ -37,11 +37,11 @@ There's a practical half to this too. I'm one person. A photoreal space RPG is a
 hundred-person project and a five-year calendar, and I have neither. The PS1
 constraint isn't just aesthetically honest — it's the only way the scope closes.
 
-The thing that makes it closeable is a pipeline I built called FORGE: a way to
-keep a consistent low-poly look across an entire game's worth of assets without
-hand-touching every one of them. Consistency is what sells a stylized world.
-One off-model asset and the spell breaks. FORGE is what lets a single developer
-hold that line across hundreds of objects.
+The thing that makes it closeable is consistency. A coherent low-poly look across
+an entire game's worth of assets is what sells a stylized world — one off-model
+object and the spell breaks. The PS1 constraint is what lets a single developer
+hold that line across hundreds of assets: when every shape is simple and the rules
+are tight, staying on-model is something one person can actually do.
 
 So when you see a four-hundred-triangle ship in this game, it isn't there because
 I couldn't afford more. It's there because more would be worse — for the feel, for
