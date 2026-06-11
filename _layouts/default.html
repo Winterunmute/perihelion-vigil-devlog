@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} // {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-title">PERIHELION VIGIL</span>
+        <span class="brand-sub">// DEVLOG</span>
+      </a>
+      <div class="status-readout">
+        <span class="status-line">STATUS: <em>ACTIVE</em></span>
+        <span class="status-line">BUILD: <em>EARLY ACCESS</em></span>
+        <span class="status-line">NODE: <em>EVA-01</em><span class="cursor">_</span></span>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">[ Log ]</a>
+      <a href="{{ '/about/' | relative_url }}">[ About ]</a>
+      <a href="{{ site.github_repo }}">[ GitHub ]</a>
+      <a href="{{ site.portfolio_url }}">[ Portfolio ]</a>
+      <a href="{{ '/feed.xml' | relative_url }}">[ RSS ]</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-title">{{ site.title }}</span>
+      <span class="footer-links">
+        <a href="{{ site.github_repo }}">SOURCE</a> ·
+        <a href="{{ site.portfolio_url }}">PORTFOLIO</a> ·
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </span>
+      <span class="footer-meta">// {{ site.author }} — transmitted from low orbit</span>
+    </div>
+  </footer>
+</body>
+</html>

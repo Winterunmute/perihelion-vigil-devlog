@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="breadcrumb">
+    <a href="{{ '/' | relative_url }}">LOG</a>
+    <span class="sep">/</span>
+    <span>{{ page.date | date: "%Y" }}</span>
+    <span class="sep">/</span>
+    <span class="crumb-title">{{ page.title }}</span>
+  </div>
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <span class="meta-date">{{ page.date | date: "%Y.%m.%d" }}</span>
+      {% if page.tags %}
+      <span class="meta-tags">
+        {% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}
+      </span>
+      {% endif %}
+      <span class="meta-read">{{ content | number_of_words | divided_by: 200 | plus: 1 }} MIN READ</span>
+    </div>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-nav">
+      {% if page.previous %}
+      <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">&lt;&lt; {{ page.previous.title }}</a>
+      {% else %}<span></span>{% endif %}
+      {% if page.next %}
+      <a class="post-nav-next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &gt;&gt;</a>
+      {% else %}<span></span>{% endif %}
+    </div>
+    <div class="post-back"><a href="{{ '/' | relative_url }}">[ RETURN TO LOG ]</a></div>
+  </footer>
+</article>

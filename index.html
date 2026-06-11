@@ -1,0 +1,27 @@
+---
+layout: default
+title: Log
+---
+<section class="log-head">
+  <h1>// TRANSMISSION LOG</h1>
+  <p class="log-count">{{ site.posts | size }} ENTRIES ON RECORD</p>
+</section>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-entry">
+    <div class="entry-meta">
+      <span class="entry-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      {% if post.tags %}
+      <span class="entry-tags">
+        {% for tag in post.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}
+      </span>
+      {% endif %}
+    </div>
+    <div class="entry-content">
+      <h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="entry-excerpt">{{ post.excerpt | default: post.content | strip_html | truncate: 180 }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
