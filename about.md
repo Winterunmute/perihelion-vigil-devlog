@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# // ABOUT THIS TRANSMISSION
+# ABOUT
 
 **Perihelion Vigil** is a PS1-era space RPG built by one person. Low-poly ships,
 phosphor terminals, and a world you operate rather than watch. You don't pilot
