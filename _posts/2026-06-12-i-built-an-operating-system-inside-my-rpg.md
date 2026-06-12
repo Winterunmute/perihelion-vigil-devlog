@@ -59,6 +59,7 @@ easier to write a reliable interpreter for than something with scope and
 closures.
 
 ![A .hel listing executing line by line on an in-game terminal]({{ "/assets/media/post-2/helios-listing-run.gif" | relative_url }})
+
 *BASIC with line numbers, running live. Salvaged-software fiction, real interpreter underneath.*
 
 ## Where the bodies are buried
