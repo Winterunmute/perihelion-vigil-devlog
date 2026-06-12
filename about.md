@@ -55,6 +55,5 @@ happens — pre-alpha, warts and all.
 
 ## Links
 
-- [Source / game repo]({{ site.github_repo }})
 - [Developer portfolio]({{ site.portfolio_url }})
 - [RSS feed]({{ '/feed.xml' | relative_url }})

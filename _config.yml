@@ -3,7 +3,6 @@ description: "Development logs for Perihelion Vigil — a low-fidelity space RPG
 baseurl: "/perihelion-vigil-devlog"
 url: "https://winterunmute.github.io"
 author: "Crux / Rickard Borchers"
-github_repo: "https://github.com/Winterunmute/PERIHELION-VIGIL"
 portfolio_url: "https://winterunmute.github.io/Portfolio/"
 
 markdown: kramdown
