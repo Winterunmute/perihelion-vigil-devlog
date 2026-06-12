@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I built an operating system inside my RPG"
-date: 2026-06-14
+date: 2026-06-12
 tags: [architecture, vm, design]
 excerpt: "Perihelion Vigil runs on a custom bytecode VM. Every terminal is executed by an interpreter I wrote."
 ---
@@ -11,7 +11,6 @@ dressed up to look like a computer. You're looking at an actual computer. The
 terminal is running a program, and that program is being executed — one line at a
 time — by a virtual machine I wrote from scratch. I call the whole thing HeliOS.
 
-<!-- PLACEHOLDER · png · hero shot — player seated at a HeliOS console in-game, CRT glowing -->
 ![A HeliOS terminal in the game world]({{ "/assets/media/post-2/helios-console.png" | relative_url }})
 *The console isn't set dressing — it's a real machine running real software.*
 
@@ -59,7 +58,6 @@ setting, and — conveniently — a flat, line-numbered language is dramatically
 easier to write a reliable interpreter for than something with scope and
 closures.
 
-<!-- PLACEHOLDER · gif · the same listing executing — ALERT lines printing to the CRT one at a time -->
 ![A .hel listing executing line by line on an in-game terminal]({{ "/assets/media/post-2/helios-listing-run.gif" | relative_url }})
 *BASIC with line numbers, running live. Salvaged-software fiction, real interpreter underneath.*
 
