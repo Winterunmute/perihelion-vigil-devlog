@@ -4,6 +4,8 @@ title: "low-fidelity space RPG"
 date: 2026-06-11
 tags: [design, aesthetic, solo-dev]
 excerpt: "Low-poly isn't a limitation I'm working around. It's the point."
+redirect_from:
+  - /log/2026/06/11/why-ps1-era-space-rpg-in-2026/
 ---
 
 Every few months someone announces a game with skin pores you can count and

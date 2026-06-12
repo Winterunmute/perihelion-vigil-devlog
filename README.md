@@ -6,7 +6,7 @@ Live site: https://winterunmute.github.io/perihelion-vigil-devlog/
 
 ## What this is
 
-A static devlog for **Perihelion Vigil**, a PS1-era space RPG built by one
+A static devlog for **Perihelion Vigil**, a low-fidelity space RPG built by one
 person. Phosphor-green-on-black terminal aesthetic. Posts are markdown files in
 `_posts/`. Push to `main` = publish.
 
