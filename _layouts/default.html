@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% feed_meta %}
+  {% if site.analytics.umami_website_id != "" %}
+  <script defer src="{{ site.analytics.umami_src }}" data-website-id="{{ site.analytics.umami_website_id }}"></script>
+  {% endif %}
 </head>
 <body>
   <header class="site-header">
@@ -45,5 +48,8 @@
       <span class="footer-meta">// {{ site.author }} — transmitted from low orbit</span>
     </div>
   </footer>
+  {% if site.analytics.umami_website_id != "" %}
+  <script defer src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
+  {% endif %}
 </body>
 </html>

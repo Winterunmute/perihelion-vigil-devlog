@@ -5,6 +5,12 @@ url: "https://winterunmute.github.io"
 author: "Crux / Rickard Borchers"
 portfolio_url: "https://winterunmute.github.io/Portfolio/"
 
+# Engagement tracking (Umami Cloud). See ANALYTICS.md for setup.
+# Leave umami_website_id blank to disable all analytics (e.g. local builds).
+analytics:
+  umami_website_id: "4824585c-a33c-43ff-a5e5-bb4a42c74092"
+  umami_src: "https://cloud.umami.is/script.js"
+
 markdown: kramdown
 highlighter: rouge
 permalink: /log/:year/:month/:day/:title/
@@ -22,5 +28,6 @@ plugins:
 exclude:
   - README.md
   - MEDIA-NOTES.md
+  - ANALYTICS.md
   - Gemfile
   - Gemfile.lock
