@@ -8,40 +8,156 @@ tags: [he-3, spinoff, design, lore]
 excerpt: "HE-3 Extraktion är ett automatiseringsspel på Mars, 2587. Du minar helium-3. Någonstans där borta äts jorden upp. Du vet inte om det än."
 ---
 
-## What HE-3 Extraktion is
+# What HE-3 Extraktion Is
 
-It's an automation game. Factorio's bones — build, route, optimize — wired into HeliOS, the same terminal OS that runs everything in the Perihelion Vigil universe. Same syntax, same commands, same green glow you've seen in the earlier posts.
+HE-3 Extraktion is an automation game.
 
-You're a mining foreman on Mars in 2587. Your job is helium-3. You build the extraction complex, you script the conveyors and the refiners in HeliOS, you push throughput, and LEDGER prices every gram you pull out of the regolith. The loop is satisfying in the way these games are satisfying: a number goes up because you made a system smarter.
+Build extraction complexes. Route materials. Balance power grids. Expand production. Write HeliOS scripts to automate machines and squeeze more throughput out of your operation.
 
-## The year matters
+If you've played factory builders before, the loop should feel familiar: identify a bottleneck, solve it, discover three new bottlenecks.
 
-2587 is the year of The Sundering. You won't be told that. You'll just notice things.
+The difference is HeliOS.
 
-A supply manifest from Earth that doesn't arrive. Then doesn't arrive again. A comms relay that drops and stays dropped. A LEDGER feed where the prices start moving in ways that don't make sense, because somewhere the thing setting them has stopped existing. The Congregation has been saying for years that something was coming. You filed it under noise. You had targets.
+Every major system in the facility can be controlled through the same terminal operating system used throughout the Perihelion Vigil universe. Conveyors, extractors, refineries, defensive systems, logistics relays — if it has a processor, it can probably be scripted.
 
-You never see The Mass. You see the data of a world ending — quiet channels, reports that stop, numbers that don't add up — while your conveyors keep running, because that's what conveyors do. The horror isn't a monster on screen. It's that the work doesn't stop. It can't. You don't know yet that it should.
+The goal isn't to memorize programming syntax.
 
-## Where it sits
+The goal is to build machines that solve problems for you.
 
-HE-3 Extraktion is the first of three standalone spinoffs, one per faction, each showing The Sundering from one ground-level vantage point.
+A better script means a better facility.
 
-1. **Forge Union — HE-3 Extraktion** (tech / automation) — Mars. This one.
-2. **Meridian League** (combat / trading) — traders caught in the middle.
-3. **The Continuum** (science / psi) — researchers who knew more than they said.
+A better facility means more helium-3.
 
-All three feed into Perihelion Vigil 1.0. That's all I'll say about 2 and 3, because that's all that's decided. More coming.
+More helium-3 means profit.
 
-## The modular plan
+At least in theory.
 
-Here's the honest version of how this gets built.
+---
 
-I'm building the universe as modules. Each spinoff is a complete game on its own terms — a beginning, a middle, an end. HE-3 Extraktion is not a demo and not a prologue. It's a finished thing you can play to the end. If it lands well enough to justify the next one, the next one gets made. If all three land, 1.0 is where they converge — the game where you're finally on the other side of The Sundering, flying through a Sol system shaped by everything the spinoffs showed you.
+# Mars, 2587
 
-Part of this is survival. I'm one person. A solo dev cannot disappear into a five-year RPG and come out the other side still motivated, still sane, still solvent. Scoping to something completable means something actually ships. Then you build on what shipped. That's the only plan I trust.
+You're a mining foreman on Mars.
 
-But it's also a narrative choice. The Sundering is too big to show head-on. Three games, three perspectives, each working from incomplete and partly contradictory information — that adds up to something closer to how a real catastrophe is actually lived. Fragmented. From the ground. No single person sees the whole shape of it. Neither do you, until maybe 1.0, and even then, not all of it.
+Your assignment is simple: extract helium-3 and ship it off-world.
 
-The spinoffs aren't prequels. They're evidence.
+Every day begins with quotas.
+
+Every day ends with production reports.
+
+The machines don't care about anything else.
+
+Most of the time, neither do you.
+
+Mars is far from the centers of power. News arrives late. Decisions are made somewhere else. Your concern is keeping the facility operational and making sure tomorrow's numbers are higher than today's.
+
+Occasionally something slips through.
+
+A shipment that never arrives.
+
+A maintenance request that remains unanswered.
+
+A communications outage that lasts longer than it should.
+
+A market report that makes less sense than the one before it.
+
+Nothing dramatic.
+
+Nothing obvious.
+
+Just enough to notice if you're paying attention.
+
+Most people aren't.
+
+There is work to do.
+
+---
+
+# Automation Meets Defense
+
+Mars is not empty.
+
+Dust storms damage infrastructure.
+
+Equipment breaks.
+
+Remote installations attract unwanted attention.
+
+As production scales up, protecting your operation becomes part of the job.
+
+Turrets, sensors, alarms, relays, automated response systems — every layer of defense can be integrated into the same HeliOS network that runs the rest of the facility.
+
+A refinery outage can trigger a maintenance drone.
+
+A sensor trip can activate defensive batteries.
+
+A power shortage can force emergency load shedding.
+
+The challenge isn't building individual machines.
+
+The challenge is building a facility that can survive without you watching every part of it.
+
+---
+
+# Where It Sits
+
+HE-3 Extraktion is the first of several standalone stories set within the Perihelion Vigil universe.
+
+Each game focuses on a different place, a different profession, and a different perspective.
+
+Different people.
+
+Different priorities.
+
+Different pieces of a larger picture.
+
+Some of those pieces fit together.
+
+Some don't.
+
+Not everyone sees events the same way.
+
+---
+
+# The Modular Plan
+
+This project is being built as a series of complete games rather than one enormous project.
+
+HE-3 Extraktion is not a demo.
+
+It is not a tutorial.
+
+It is not a prologue.
+
+It is a complete game with its own beginning, middle, and end.
+
+If players enjoy it, the next story gets built.
+
+Then the next.
+
+Each project expands the universe while standing on its own.
+
+Part of that is practical.
+
+I'm one developer.
+
+Building smaller, complete games means things actually ship instead of disappearing into development forever.
+
+But it also fits the setting.
+
+Large events are rarely experienced all at once.
+
+Most people only see the small piece directly in front of them.
+
+A factory worker on Mars.
+
+A trader moving cargo between stations.
+
+A researcher studying something they don't fully understand.
+
+Everyone has part of the story.
+
+Nobody has all of it.
+
+Not yet.
 
 More soon — including footage.
