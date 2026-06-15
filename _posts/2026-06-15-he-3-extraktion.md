@@ -8,10 +8,6 @@ tags: [he-3, spinoff, design, lore]
 excerpt: "HE-3 Extraktion är ett automatiseringsspel på Mars, 2587. Du minar helium-3. Någonstans där borta äts jorden upp. Du vet inte om det än."
 ---
 
-The title meant: *You don't play the hero. You play someone who doesn't know what's happening.*
-
-That's the whole game, really.
-
 ## What HE-3 Extraktion is
 
 It's an automation game. Factorio's bones — build, route, optimize — wired into HeliOS, the same terminal OS that runs everything in the Perihelion Vigil universe. Same syntax, same commands, same green glow you've seen in the earlier posts.
