@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "You don't play the hero. You play someone who doesn't know what's happening."
-date: 2026-06-20 12:00:00 +0200
+date: 2026-06-15 12:00:00 +0200
+redirect_from:
+  - /log/2026/06/20/he-3-extraktion/
 tags: [he-3, spinoff, design, lore]
 excerpt: "HE-3 Extraktion är ett automatiseringsspel på Mars, 2587. Du minar helium-3. Någonstans där borta äts jorden upp. Du vet inte om det än."
 ---
