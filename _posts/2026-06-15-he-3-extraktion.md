@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You don't play the hero. You play someone who doesn't know what's happening."
+title: "HE-3 Extraktion — a standalone chapter"
 date: 2026-06-15 12:00:00 +0200
 redirect_from:
   - /log/2026/06/20/he-3-extraktion/
