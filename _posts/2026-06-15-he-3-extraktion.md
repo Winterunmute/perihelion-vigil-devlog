@@ -8,7 +8,7 @@ tags: [he-3, spinoff, design, lore]
 excerpt: "HE-3 Extraktion är ett automatiseringsspel på Mars, 2587. Du minar helium-3. Någonstans där borta äts jorden upp. Du vet inte om det än."
 ---
 
-The title is Swedish. The rest of this post is in English, because that's where most of you are. It means: *You don't play the hero. You play someone who doesn't know what's happening.*
+The title meant: *You don't play the hero. You play someone who doesn't know what's happening.*
 
 That's the whole game, really.
 
