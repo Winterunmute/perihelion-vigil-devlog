@@ -160,4 +160,6 @@ Nobody has all of it.
 
 Not yet.
 
-More soon — including footage.
+The spin-offs are more than prequels.
+
+They're evidence.
